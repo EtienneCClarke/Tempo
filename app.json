@@ -31,7 +31,8 @@
       },
       "permissions": [
         "android.permission.MODIFY_AUDIO_SETTINGS"
-      ]
+      ],
+      "package": "com.etiennecclarke.tempo"
     },
     "web": {
       "bundler": "metro",
