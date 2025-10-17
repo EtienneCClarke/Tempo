@@ -48,9 +48,9 @@ const SelectTempo = ({ onSelect, value, disabled = false }: SelectTempoProps) =>
                 insets={contentInsets}
                 side='top'
                 sideOffset={4}
-                className="rounded-md"
                 style={{
-                    width: ((Dimensions.get('window').width - 64) / 2) - 8
+                    width: ((Dimensions.get('window').width - 64) / 2) - 8,
+                    borderRadius: 16
                 }}
             >
                 {TEMPOS.map((t: typeof TEMPOS[0], index: number) =>
